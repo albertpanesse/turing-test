@@ -25,6 +25,7 @@
 				padding: 0px 20px 0px 20px;
 				font-family: 'Montserrat', sans-serif;
 				font-weight: bold;
+				color: #333333;
 			}
 		}
 	}
@@ -35,5 +36,12 @@
 	
 	.ts-header-part4 {
 		flex-grow: 1;		
-	} 
+
+		a {
+			
+			i {
+				font-size: 24px;
+			}
+		}
+	}
 }
