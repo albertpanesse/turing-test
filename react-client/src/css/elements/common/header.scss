@@ -1,3 +1,39 @@
-h5.ts-title {
-	text-transform: uppercase;
+.ts-header {
+	.ts-header-part1 {
+		flex-grow: 1;
+		
+		h5.ts-title {
+			width: 10%;
+			text-transform: uppercase;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			letter-spacing: 3px;
+			font-size: 24px;
+		}
+	}
+	
+	.ts-header-part2 {
+		flex-grow: 7;		
+		
+		.ts-top-nav {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+			
+			a {
+				display: block;
+				padding: 0px 20px 0px 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+			}
+		}
+	}
+	
+	.ts-header-part3 {
+		flex-grow: 1;		
+	}
+	
+	.ts-header-part4 {
+		flex-grow: 1;		
+	} 
 }

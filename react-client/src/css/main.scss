@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:bold');
+
 @import 'components/index';
 @import 'elements/index';
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+a {
+	color: #CF1FDE;
+}
+a:hover {
+	text-decoration: none;
+}
 
 @include media-breakpoint-up(sm) {
 	
