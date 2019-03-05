@@ -1,0 +1,45 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+	"airbnb"
+  ],
+  "env": {
+	"es6": true,
+	"browser": false,
+	"node": true
+  },
+  "rules": {
+	"no-multi-assign": "off",
+	"global-require": "off",
+	"camelcase": "warn",
+	"import/no-dynamic-require": "off",
+	"radix": "off",
+	"node/no-unsupported-features/es-syntax": "off",
+	"no-restricted-syntax": "warn",
+	"indent": ["error", "tab", {"SwitchCase": 1}],
+	"object-curly-spacing": ["error", "never"],
+	"object-curly-newline": ["error", { "multiline": true }],
+	"no-tabs": ["error", {"allowIndentationTabs": true}],
+	"comma-dangle": ["error", "never"],
+	"no-trailing-spaces": ["error", {"skipBlankLines": true}],
+	"import/prefer-default-export": "off",
+	"max-len": "off",
+	"no-underscore-dangle": "off",
+	"react/jsx-filename-extension": "off",
+	"react/jsx-indent": ["error", "tab"],
+	"react/jsx-indent-props": ["error", "tab"],
+	"react/jsx-one-expression-per-line": "off",
+	"react/destructuring-assignment": [true, "always", {"ignoreClassFields": true}],
+	"react/forbid-prop-types": "off",
+	"react/no-did-update-set-state": "off",
+	"jsx-a11y/anchor-is-valid": "off",
+	"jsx-a11y/label-has-for": [2, {"components": ["Label"], "required": {"every": ["id"]}, "allowChildren": false}],
+	"no-param-reassign": "off",
+	"jsx-a11y/no-static-element-interactions": "off",
+	"jsx-a11y/click-events-have-key-events": "off"
+  },
+  "globals": {
+  	"document": true,
+  	"window": true
+  }
+}

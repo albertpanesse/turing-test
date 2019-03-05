@@ -1,0 +1,7 @@
+.env
+node_modules
+node_modules/*
+react-client/dist/hot
+react-client/dist/hot/*
+react-client/dist/bundle.*
+
