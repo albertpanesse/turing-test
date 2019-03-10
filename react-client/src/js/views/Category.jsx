@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 import {Common as CommonElement, Category as CategoryElement} from '../elements';
 
 class Category extends React.Component {
-	state = {categoryId: -1}
+	state = {categoryId: -1} // eslint-disable-line
 
 	componentDidMount() {
 		const categoryId = parseInt(this.props.match.params.id);
 
-		this.setState({categoryId});
+		this.setState({categoryId}); // eslint-disable-line
 	}
 
 	componentDidUpdate(prevProps, prevState, snapshot) { // eslint-disable-line
